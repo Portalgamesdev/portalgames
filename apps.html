@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Games</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS link -->
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li> <!-- Link back to the home page -->
+        <li><a href="games.html">Games</a></li> <!-- Link to the index page (games page) -->
+      </ul>
+    </nav>
+    <h1>Welcome to Portal Games</h1>
+    <p>Click on an image to play the game in the iframe below!</p>
+  </header>
+
+  <div id="game-gallery">
+    <!-- Game images that link to different game URLs -->
+    <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/google/')">
+      <img src="google.png" alt="Google" />
+    </div>  
+      <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/youtube/')">
+      <img src="youtube.png" alt="Youtube" />
+    </div>  
+    <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/chatgpt/')">
+     <img src="chatgpt.jpeg" alt="ChatGPT" />
+    </div> 
+    <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/facebook/')">
+     <img src="facebook.png" alt="Facebook" />
+     </div> 
+      <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/discord/')">
+     <img src="discord.jpeg" alt="Discord" />
+     </div> 
+      <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/snapchat/')">
+     <img src="snapchat.jpg" alt="Snapchat" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/tiktok/')">
+     <img src="tiktok.png" alt="Tiktok" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/x/')">
+     <img src="X.png" alt="X" />
+     </div>
+      <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/twitch/')">
+     <img src="twitch.png" alt="Twitch" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/nowgg/')">
+     <img src="nowgg.jpg" alt="Now.gg" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/poki/')">
+     <img src="poki.png" alt="Poki" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/soundboard/')">
+     <img src="sound.png" alt="Soundboard" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/storage/load/cloudgaming/')">
+     <img src="cloud.png" alt="Cloud Gaming" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/static/ixl/hvtrs8%2F-rgpniv.aoo%2F')">
+     <img src="replit.png" alt="Replit" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/static/ixl/hvtrs8%2F-gktju%60.aoo%2F')">
+     <img src="github.png" alt="Github" />
+     </div>
+     <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/static/ixl/hvtrs8%2F-dwcidwcigm.aoo%2F')">
+     <img src="duckduckgo.png" alt="Duckduckgo" />
+     </div>
+      <div class="game" onclick="openGame('https://iplaywithmy.selfie.id.au/static/ixl/hvtrs8%2F-wuw%2Cfpegvrn%2Cole-cmnleat-')">
+     <img src="rocket.png" alt="Free VPN" />
+     </div>
+ 
+ 
+ 
+
+  </div>
+
+  <div id="game-frame-container">
+    <!-- iframe for the game -->
+    <iframe id="game-frame" src="" width="1500" height="750" style="display:none;" frameborder="0"></iframe>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Portal Games. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script> <!-- External JS link -->
+</body>
+</html>
